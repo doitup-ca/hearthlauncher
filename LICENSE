@@ -1,0 +1,23 @@
+Copyright © 2026 Do It Up. All rights reserved.
+
+This repository is the public front door for Hearth: documentation, product
+description, release notes and issue templates. It contains no application
+source code, and nothing here is released under an open-source licence.
+
+You may read this material, link to it, and quote reasonable extracts with
+attribution. You may not republish it, in whole or substantially, or reuse it
+to describe or promote another product.
+
+"Hearth" and the Hearth mark are used as the names of this product.
+
+Contributions
+-------------
+Corrections and improvements to the documentation in this repository are
+welcome as pull requests. By opening one you agree that your contribution may
+be used in this project and distributed under these same terms.
+
+Reports filed in the issue tracker and posts in Discussions are covered by
+GitHub's Terms of Service, not by this notice.
+
+The Hearth application is separate from this repository and is not covered by
+this notice.

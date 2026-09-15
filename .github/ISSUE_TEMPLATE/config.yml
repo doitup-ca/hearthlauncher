@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or feature idea
+    url: https://github.com/doitup-ca/hearthlauncher/discussions
+    about: Ask here rather than opening an issue
+  - name: Security problem
+    url: https://github.com/doitup-ca/hearthlauncher/security/advisories/new
+    about: Report privately — never as a public issue
+  - name: Privacy policy
+    url: https://doitup-ca.github.io/privacy/
+    about: What Hearth stores and who your device talks to

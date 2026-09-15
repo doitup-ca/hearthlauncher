@@ -1,0 +1,56 @@
+name: Bug report
+description: Something in Hearth behaves incorrectly
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before you file, please **search the existing issues**, including closed ones.
+
+        ⚠️ **This tracker is public.** Logs and Home Assistant details routinely carry local IP
+        addresses, access tokens, and the entity ids and area names that describe your home.
+        Please replace them with `192.168.x.x`, `<token>` and so on before you paste.
+  - type: input
+    id: version
+    attributes: {label: App version, description: "Settings ▸ About"}
+    validations: {required: true}
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - NVIDIA SHIELD TV (2017)
+        - NVIDIA SHIELD TV Pro (2019)
+        - Chromecast with Google TV
+        - Google TV Streamer
+        - Other Android TV device
+    validations: {required: true}
+  - type: input
+    id: android
+    attributes: {label: Android version, description: "Settings ▸ Device Preferences ▸ About"}
+    validations: {required: true}
+  - type: dropdown
+    id: ha
+    attributes:
+      label: Home Assistant
+      options: ["Paired to my own server", "Demo house", "Not set up", "Switched off in Settings"]
+    validations: {required: true}
+  - type: dropdown
+    id: iptv
+    attributes:
+      label: Live TV
+      options: ["Provider connected", "Not set up", "Switched off in Settings"]
+    validations: {required: true}
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: "What you did, what you expected, and what you got. A photo of the screen is often the fastest bug report."
+    validations: {required: true}
+  - type: checkboxes
+    id: scrub
+    attributes:
+      label: Before submitting
+      options:
+        - label: "I've removed access tokens, provider passwords, and local IP addresses from anything I pasted"
+          required: true
