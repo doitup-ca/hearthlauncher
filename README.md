@@ -21,10 +21,11 @@ Home Assistant, your lights.
 Three themes, and a display scale that grows type and layout together for across-the-room
 reading.
 
-**Live TV, if you want it.** Sign in to your own live TV provider, or point Hearth at a playlist
-address, for a guide, favourites, channel groups and search, playing right on the home screen.
-Playlists and guides must be encrypted (HTTPS). Hearth doesn't include any channels or
-subscriptions. Or skip it entirely and never see it again.
+**Live TV, if you want it.** Sign in to your own live TV provider, or point Hearth at an M3U
+playlist, for a guide, favourites, channel groups and search, playing right on the home screen.
+An XMLTV guide can come from the playlist itself or from an address you give. Playlists and
+guides must be encrypted (HTTPS). Hearth doesn't include any channels or subscriptions. Or skip
+it entirely and never see it again.
 
 **Your house, on the television.** Rooms come from your own Home Assistant areas, so the layout is
 the one you already maintain — nothing to configure twice — and it updates as things happen.
