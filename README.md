@@ -21,8 +21,9 @@ Home Assistant, your lights.
 Three themes, and a display scale that grows type and layout together for across-the-room
 reading.
 
-**Live TV, if you want it.** Sign in to your own live TV provider for a guide, favourites, channel
-groups and search, playing right on the home screen. Hearth doesn't include any channels or
+**Live TV, if you want it.** Sign in to your own live TV provider, or point Hearth at a playlist
+address, for a guide, favourites, channel groups and search, playing right on the home screen.
+Playlists and guides must be encrypted (HTTPS). Hearth doesn't include any channels or
 subscriptions. Or skip it entirely and never see it again.
 
 **Your house, on the television.** Rooms come from your own Home Assistant areas, so the layout is
@@ -57,7 +58,7 @@ thing in the house: guests, children and visitors all have it, and none of them 
 authenticated. A mis-aimed press should not be able to unlock a door or arm an alarm. Your phone
 can ask who you are; a remote on the sofa cannot — so the lock stays where a phone can reach it.
 
-**Your credentials stay on your device.** Your Home Assistant access and your live TV login are
+**Your credentials stay on your device.** Your Home Assistant access and your live TV details are
 stored encrypted on the TV box, and neither is built into the app. There is no account, and
 Hearth has no server.
 

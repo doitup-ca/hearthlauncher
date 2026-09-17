@@ -3,6 +3,34 @@
 Notable changes to Hearth, newest first. Hearth is in closed testing, and these are the
 builds closed testers receive.
 
+## 0.2.0 (7) — 2026-09-16
+
+**Added**
+- **Plain M3U playlists.** As well as a provider account, Hearth now takes a playlist address
+  directly, with channels, logos and groups from the playlist itself. Hearth still doesn't
+  include any channels or subscriptions.
+- **A separate TV guide.** A playlist's own guide address is used automatically, and you can
+  type a different one if your guide comes from somewhere else. Gzipped guides are supported;
+  tar archives are not yet.
+- If saved settings ever can't be read and have to be reset, Hearth now tells you on the home
+  screen instead of quietly looking like a fresh install.
+
+**Improved**
+- Playlists and guides are **HTTPS only**. A playlist names hundreds of hosts you have never
+  seen, so unencrypted playlists, guides and channels are refused rather than asked about.
+  Some channels on public playlists will not appear for this reason.
+- The Favourites view no longer suggests your provider is at fault when you simply haven't
+  starred anything yet.
+- Disconnecting a provider leaves the remote in Settings, where you were.
+
+**Fixed**
+- Changing to a different provider now clears the channels, favourites, groups, watch history
+  and guide that belonged to the old one. Re-entering a rotated password for the **same**
+  provider keeps all of it, as before.
+- Switching accounts no longer leaves the previous provider's channel groups on screen.
+- The guide opens on the current time rather than where the grid happened to be scrolled.
+- Damaged saved settings can no longer stop Hearth from starting.
+
 ## 0.1.4 (6) — 2026-09-14
 
 **Added**
