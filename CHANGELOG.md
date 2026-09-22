@@ -3,6 +3,22 @@
 Notable changes to Hearth, newest first. Hearth is in closed testing, and these are the
 builds closed testers receive.
 
+## 0.2.1 (9) — 2026-09-22
+
+**Added**
+- Release notes now appear in Settings ▸ About.
+
+**Improved**
+- Hearth takes the screen at startup, and no longer interrupts an app you opened first.
+- Hearth starts faster, and channel logos are sharper.
+- Home Assistant pairing stays on your own network. Every connection step is
+  checked, so some channels may stop working.
+
+**Fixed**
+- Live TV resumes from live, not where you left it.
+- Hiding an area or section keeps the remote on the next card.
+- Damaged settings are retried before anything is cleared.
+
 ## 0.2.0 (7) — 2026-09-16
 
 **Added**
