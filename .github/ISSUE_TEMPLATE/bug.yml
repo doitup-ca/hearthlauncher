@@ -39,7 +39,7 @@ body:
     id: iptv
     attributes:
       label: Live TV
-      options: ["Provider connected", "Not set up", "Switched off in Settings"]
+      options: ["Provider connected", "Playlist (M3U) connected", "Not set up", "Switched off in Settings"]
     validations: {required: true}
   - type: textarea
     id: what

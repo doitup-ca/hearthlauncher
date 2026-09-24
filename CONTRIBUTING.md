@@ -16,6 +16,14 @@ version, and whether Home Assistant and Live TV are set up — those five answer
 difference between a report that can be acted on and one that can't. Android TV devices differ
 enough that "it doesn't work" is genuinely not actionable without them.
 
+## If you'd rather not use GitHub
+
+You don't need a GitHub account to report a bug. Send it to the support address on Hearth's
+Google Play listing instead, and it will be filed here for you. The issue won't name you, and
+you'll get a link so you can follow it.
+
+Issues filed this way say so on their first line, for example "Reported by a user by email".
+
 ## Before you file
 
 **Search the existing issues first**, including closed ones. A comment on an existing report is

@@ -81,5 +81,16 @@ builds closed testers receive.
 
 ## 0.1.0 (1) — 2026-09-07
 
-First build for closed testers: a launcher for Android TV with your Home Assistant house, a
-live TV player and a dock of your apps.
+First build for closed testers. This is what it could do.
+
+**Included**
+- Hearth replaces your TV's home screen, with a dock of apps you choose and order.
+- Hold OK anywhere, even over video, for the guide, apps, settings and lights.
+- Your Home Assistant house on screen: rooms, lights, cameras, security and weather.
+- Locks, alarms and garage doors are shown, never controlled.
+- Pair Home Assistant from your phone, with nothing typed on the TV.
+- Your Home Assistant dashboard inside Hearth, view-only.
+- Home Assistant automations can put a card over whatever is playing.
+- Live TV from your own provider, with a guide, favourites, groups and voice search.
+- A demo house to try without Home Assistant, and every part can be switched off.
+- Three themes, and a display scale for reading across the room.
