@@ -3,6 +3,22 @@
 Notable changes to Hearth, newest first. Hearth is in closed testing, and these are the
 builds closed testers receive.
 
+## 0.2.2 (11) — 2026-09-25
+
+**Security**
+- Stream and logo redirects are checked, and insecure ones are upgraded.
+- Pairing sends your token only inside your home network.
+- Re-pairing Home Assistant no longer leaves an old connection open.
+
+**Improved**
+- A channel Hearth can't play safely now says why.
+- Settings says when Home Assistant refuses a camera or calendar.
+- The accessibility description names all of its uses.
+
+**Fixed**
+- A jammed or open lock no longer shows as locked.
+- If saved settings are lost, Hearth now tells you on screen.
+
 ## 0.2.1 (9) — 2026-09-22
 
 **Added**
