@@ -3,6 +3,18 @@
 Notable changes to Hearth, newest first. Hearth is in closed testing, and these are the
 builds closed testers receive.
 
+## 0.2.3 (12) — 2026-09-25
+
+**Security**
+- Pop-ups no longer appear over other apps once the accessibility service is off.
+- Hearth takes over as your launcher only when you've switched that on.
+- Other apps can no longer open your Home Assistant dashboard in Hearth.
+- Removed a leftover diagnostic file from the device.
+
+**Fixed**
+- Home Assistant pop-ups work straight after pairing, without a restart.
+- Newly installed apps appear in the dock straight away.
+
 ## 0.2.2 (11) — 2026-09-25
 
 **Security**
