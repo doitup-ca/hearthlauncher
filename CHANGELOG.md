@@ -3,6 +3,23 @@
 Notable changes to Hearth, newest first. Hearth is in closed testing, and these are the
 builds closed testers receive.
 
+## 0.2.4 (13) — 2026-09-28
+
+**Security**
+- Whole-house lights need a second press in the quick menu.
+- Android's system log no longer records passwords or your Home Assistant address.
+- Voice search stops if you switch apps mid-search.
+
+**Fixed**
+- Turning the TV on opens Hearth, not the Google home screen.
+- Live TV recovers by itself after a network drop.
+- A failed guide update keeps the old guide.
+- A camera that can't stream shows snapshots.
+- Lock status shows Jammed instead of Unlocked.
+
+**Changed**
+- The smallest display size was removed.
+
 ## 0.2.3 (12) — 2026-09-25
 
 **Security**
