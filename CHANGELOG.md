@@ -3,6 +3,19 @@
 Notable changes to Hearth, newest first. Hearth is in closed testing, and these are the
 builds closed testers receive.
 
+## 0.2.5 (14) — 2026-10-04
+
+**Fixed**
+- Tabs move one step per press, even while Hearth is busy.
+- After an update, the remote works without pressing Home.
+- The guide's shelf shows every group you've switched on.
+
+**Changed**
+- Live TV on the home screen uses far less processing power.
+- Channels with no schedule show "No schedule" blocks in the guide.
+- New look for the unencrypted provider warning.
+- Focused tabs fill with the accent color; Midnight has new colors.
+
 ## 0.2.4 (13) — 2026-09-28
 
 **Security**
