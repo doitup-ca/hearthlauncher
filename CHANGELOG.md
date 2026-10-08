@@ -3,6 +3,21 @@
 Notable changes to Hearth, newest first. Hearth is in closed testing, and these are the
 builds closed testers receive.
 
+## 0.3.0 (15) — 2026-10-10
+
+**New**
+- A new design across all of Hearth, with four themes and a new picture daily.
+- A new home screen: a bigger player, rooms, cameras, the forecast and your calendar.
+- New House, Media and Climate tabs.
+- The top bar has a gear for Settings and a bell for notifications.
+- Hold OK anywhere for a quick menu.
+- A new overlay on full-screen TV.
+- A new first-run setup and tour.
+
+**Changed**
+- Dawn, Day, Dusk and Night replace Ember, Midnight and Signal.
+- Live TV plays more steadily, and you can choose TS or HLS.
+
 ## 0.2.5 (14) — 2026-10-04
 
 **Fixed**
