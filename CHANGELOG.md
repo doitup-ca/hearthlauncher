@@ -3,7 +3,18 @@
 Notable changes to Hearth, newest first. Hearth is in closed testing, and these are the
 builds closed testers receive.
 
-## 0.3.0 (15) — 2026-10-10
+## 0.3.1 (16) — 2026-10-10
+
+**Fixed**
+- Camera pictures on room cards refresh every 2 seconds, not every 10.
+- Focused app banners on the dock and in the quick menu stay sharp.
+- One press of BACK closes the notice before the Home Assistant dashboard.
+
+**Changed**
+- After pairing, "You're connected!" counts your rooms and cameras before the tour.
+- Cards and the dock on the home screen are lighter, so more of the background shows through.
+
+## 0.3.0 (15) — 2026-10-08
 
 **New**
 - A new design across all of Hearth, with four themes and a new picture daily.
