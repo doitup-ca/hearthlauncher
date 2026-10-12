@@ -3,6 +3,21 @@
 Notable changes to Hearth, newest first. Hearth is in closed testing, and these are the
 builds closed testers receive.
 
+## 0.3.2 (17) — 2026-10-12
+
+**New**
+- Captions on full-screen TV, for channels that have them.
+- Rooms show temperature and humidity from their sensors, and Climate has a grid of rooms.
+
+**Fixed**
+- Playlist channels in several groups at once now appear under each group.
+- The TV guide opens on the channel you're watching.
+- HDR channels on the home screen no longer wash out the colours around them.
+
+**Changed**
+- The TV guide keeps channels without listings in your provider's order.
+- Live TV stops a few seconds after you open another app.
+
 ## 0.3.1 (16) — 2026-10-10
 
 **Fixed**
