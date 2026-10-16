@@ -3,6 +3,21 @@
 Notable changes to Hearth, newest first. Hearth is in closed testing, and these are the
 builds closed testers receive.
 
+## 1.0.0 (19) — 2026-10-16
+
+**Hearth 1.0 is here.** Your home, your TV and your apps, on one screen. Thank you for testing
+since September.
+
+**New**
+- Live TV without Home Assistant gets its own home screen: a bigger player, what's next and a grid
+  of favorites.
+- Room cards show motion sensors, and the status panel names rooms with movement.
+
+**Changed**
+- Quick actions sit at the end of the dock. Turn them off in Settings ▸ Screen.
+- Motion, open doors and unlocked doors are yellow while the alarm is off; red is for smoke and
+  leaks.
+
 ## 0.3.2 (17) — 2026-10-12
 
 **New**
@@ -21,7 +36,7 @@ builds closed testers receive.
 ## 0.3.1 (16) — 2026-10-10
 
 **Fixed**
-- Camera pictures on room cards refresh every 2 seconds, not every 10.
+- Camera feeds on room cards refresh every 2 seconds, not every 10.
 - Focused app banners on the dock and in the quick menu stay sharp.
 - One press of BACK closes the notice before the Home Assistant dashboard.
 
