@@ -1,20 +1,36 @@
 # Changelog
 
-Notable changes to Hearth, newest first. Hearth is on Google Play. The builds before 1.0.1
-went to testers only.
+Notable changes to Hearth, newest first. Hearth is on Google Play from 1.0.1. The builds
+before it went to testers only.
 
 ## 1.0.1 (22) — 2026-10-20
 
-**Hearth 1.0 is here:** your apps, your own live TV and your home, on one screen built for the
-remote.
+**Hearth is on Google Play.**
+
+**Fixed**
+- Full-screen TV has a Mute button.
+- Rearranging: one press of OK drops an app in Settings ▸ Dock, and the home screen starts on a card.
+- Guides from another site than your playlist fill in more channels.
+- A guide with nothing for your channels says so instead of downloading again on every open.
+- Favorites show the next program as soon as one ends.
+
+**Changed**
+- Partly switched-on groups in the TV guide list each part you chose, like "US - Sports".
+
+## 1.0.0 (19) — 2026-10-16
+
+**Hearth 1.0 is here.** Your home, your TV and your apps, on one screen. Thank you for testing
+since September.
 
 **New**
-- Use what you have: just your apps, live TV from your own provider or playlist, Home Assistant,
-  or both.
-- Four themes, with a new picture each day.
-- Look, don't touch: lights, climate, fans and switches work from the couch. Locks and alarms are
-  shown, never changed.
-- No account, no analytics, and nothing sent to us.
+- Live TV without Home Assistant gets its own home screen: a bigger player, what's next and a grid
+  of favorites.
+- Room cards show motion sensors, and the status panel names rooms with movement.
+
+**Changed**
+- Quick actions sit at the end of the dock. Turn them off in Settings ▸ Screen.
+- Motion, open doors and unlocked doors are yellow while the alarm is off; red is for smoke and
+  leaks.
 
 ## 0.3.2 (17) — 2026-10-12
 
