@@ -3,6 +3,12 @@
 Notable changes to Hearth, newest first. Hearth is on Google Play from 1.0.1. The builds
 before it went to testers only.
 
+## 1.0.2 (23) — 2026-10-23
+
+**Fixed**
+- Fixed a crash on the home screen for some Home Assistant setups.
+- Long door and window names no longer crowd the status bar.
+
 ## 1.0.1 (22) — 2026-10-20
 
 **Hearth is on Google Play.**
